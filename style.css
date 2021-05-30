@@ -1,0 +1,186 @@
+* {
+      margin: 0;
+      padding: 0;
+}
+
+/* color variable **/
+
+root {
+      --primery: rgba(33, 35, 83, 1);
+      --bcolor: #9C69E2;
+      --secondary: #4B5D68;
+      --green: #68C9BA;
+      --red: #F063B8;
+}
+
+
+
+body {
+      background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+      background-repeat: no-repeat;
+}
+
+.container {
+
+      margin: 0 15%;
+
+
+}
+
+.top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border-bottom: 2px solid rgb(204, 221, 255);
+      align-items: center;
+      height: 60px
+}
+
+.nav,
+li {
+      list-style: none;
+      display: inline;
+      margin-right: 20px;
+      font-weight: 500;
+      line-height: 25.6px;
+      font-family: Avenir;
+
+}
+
+li>a {
+      text-decoration: none;
+      display: inline;
+      color: #000;
+
+}
+
+.btn-Demo {
+      border-radius: 20px;
+      background-color: #fff;
+      padding: 10px;
+      border: none;
+      box-shadow: 4px #000;
+
+
+}
+
+/* ==== into css === rule===  section 1*/
+.intoimg {
+      position: absolute;
+      left: 286px;
+      top: 10px;
+      width: 631px;
+}
+
+.hero {
+      width: 960px;
+      margin: 5% 15%;
+      text-align: left;
+      position: relative;
+      line-height: 1;
+}
+
+.into {
+      width: 430px;
+      Height 184px;
+}
+
+#intoheading {
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+      font-size: 60px;
+      line-height: 110%;
+      color: var(--primery);
+
+}
+
+#inropragraf {
+
+      width: 300px;
+
+      margin-top: 10px;
+      color: var(--primery);
+      font-family: 'lito', sans-serif;
+      line-height: 1.5;
+}
+
+.learnmore {
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 20px;
+      border: none;
+      background-color: rgba(156, 105, 226, 1);
+      color: #fff;
+
+
+}
+
+/***section 2 css code ***/
+
+.storagebank {
+      position: relative;
+      background-color: rgb(253, 232, 244);
+      width: 862px;
+      height: 233px;
+      Height 184px: ;
+      border-radius: 50px;
+      margin: 10px 15%;
+
+      padding: 16px;
+}
+
+.storageimage {
+      float: left;
+      width: 28%;
+      margin-right: 158px;
+
+}
+
+.strage {
+
+      width: 90%;
+      margin-top: 30px;
+      color: var(--primery);
+      font-family: 'lito', sans-serif;
+      line-height: 1.5;
+      font-size: 12px;
+}
+
+.feture {
+      width: 358px;
+      text-align: center;
+      margin: 28px auto;
+      border-bottom: 45px rgba(156, 105, 226, 1);
+      ;
+}
+
+.feturepara {}
+
+
+
+/**** detail section css ****/
+.detailf {
+
+      width: 442px;
+      height: 358px;
+      background-color: rgb(199, 238, 230);
+      border-radius: 50px;
+      text-align: left;
+      position: relative;
+}
+
+.fitem {
+      margin-top: 40px;
+}
+
+.fimage {
+
+      width: 35%;
+      float: left;
+      margin-top: 94px;
+
+}
+
+.data {
+      margin-top: 30px;
+}
