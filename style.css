@@ -184,3 +184,64 @@ li>a {
 .data {
       margin-top: 30px;
 }
+
+.deati {
+      margin: 0 15%;
+      position: relative;
+      font-family: 'lito', sans-serif;
+      display: flex;
+      flex-basis: 50%;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      font-size: 13px;
+      line-height: 1.5;
+}
+
+.searpara {
+      width: 200px;
+      position: absolute;
+      left: 130px;
+      bottom: 20px;
+
+}
+
+.para {
+      width: 150px;
+}
+
+.back {
+      background-color: rgb(240, 250, 248);
+      width: 350px;
+      height: 200px;
+      margin-bottom: 20px;
+      position: relative;
+      border-top-left-radius: 80px;
+      border-top-right-radius: 35px;
+      border-bottom-right-radius: 35px;
+      border-bottom-left-radius: 27px;
+      flex-basis: 50%;
+}
+
+.dataimg {
+      position: absolute;
+      right: 260px;
+      width: 150px;
+      height: 200px;
+}
+
+#house {
+      background-color: rgb(245, 240, 252);
+}
+
+#print {
+      background-color: rgb(247, 250, 254);
+}
+
+#security {
+      background-color: rgb(255, 255, 255);
+
+}
+
+hr {
+      margin: 30px 0 40px 0;
+}
