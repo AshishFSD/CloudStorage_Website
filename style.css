@@ -3,6 +3,7 @@
       padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 /* color variable **/
 
 root {
@@ -18,6 +19,8 @@ root {
 body {
       background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
       background-repeat: no-repeat;
+      font-size: 20px;
+      font-weight: 500;
 }
 
 .container {
@@ -43,33 +46,74 @@ li {
       margin-right: 20px;
       font-weight: 500;
       line-height: 25.6px;
-      font-family: Avenir;
+      font-family: 'Roboto', sans-serif;
 
 }
 
-li>a {
+li > a {
       text-decoration: none;
       display: inline;
       color: #000;
 
 }
+.btn{
+  border: none;
+  display:flex;
+  flex-direction:row;
+  background-color:#fff;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: space-between;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 
-.btn-Demo {
-      border-radius: 20px;
-      background-color: #fff;
-      padding: 10px;
-      border: none;
-      box-shadow: 4px #000;
+}
+
+.Demo {
+     
+
 
 
 }
 
 /* ==== into css === rule===  section 1*/
-.intoimg {
-      position: absolute;
-      left: 286px;
-      top: 10px;
-      width: 631px;
+
+.main{
+      margin-top: 40px;
+      height: 400px;
+      display: flex;
+      flex-direction: row;
+      position: relative;
+}
+.lhi{
+     
+      width: 40%;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 1rem;
+}
+
+}
+
+.rsm{
+      width: 60%;
+}
+.rsm > img{
+  width:100%;
+  height: 400px;
+}
+
+.rmore{
+
+      font-size: 1.5rem;
+      font-weight: 500;
+      height: 5vh;
+      width: 10vw;
+      border-radius: .4rem;
+      border: none;
+      background-color:#F063B8;
+      color: #fff;
 }
 
 .hero {
@@ -79,6 +123,15 @@ li>a {
       position: relative;
       line-height: 1;
 }
+
+.intoimg {
+      position: absolute;
+      left: 286px;
+      top: 10px;
+      width: 631px;
+}
+
+
 
 .into {
       width: 430px;
@@ -141,7 +194,7 @@ li>a {
       width: 90%;
       margin-top: 30px;
       color: var(--primery);
-      font-family: 'lito', sans-serif;
+      font-family: 'Roboto', sans-serif;
       line-height: 1.5;
       font-size: 12px;
 }
