@@ -209,18 +209,31 @@ li > a {
       line-height: 1.5;
       font-size: 12px;
 }
+/* New CSS for Feture setion */
 
 .feture {
-      width: 358px;
-      text-align: center;
-      margin: 28px auto;
-      border-bottom: 45px rgba(156, 105, 226, 1);
-      ;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-top: 3rem;
+       margin-bottom: 3rem; 
+       row-gap: 1.5rem;
+
+
 }
 
-.feturepara {}
+.fetureheading {
+      letter-spacing: .9rem;
+      color: #68C9BA;
+      text-transform: uppercase;
+}
 
-
+.feturepara{
+   font-size: 1.5rem;
+   width: 40%;
+   letter-spacing: .1rem;
+   color: rgb(63, 63, 63);
+}
 
 /**** detail section css ****/
 .detailf {
