@@ -94,7 +94,6 @@ li > a {
       row-gap: 1rem;
 }
 
-}
 
 .rsm{
       width: 60%;
@@ -110,10 +109,13 @@ li > a {
       font-weight: 500;
       height: 5vh;
       width: 10vw;
-      border-radius: .4rem;
+      border-radius: 0.625rem;
       border: none;
       background-color:#F063B8;
       color: #fff;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      cursor: pointer;
+      padding: 10px;
 }
 
 
@@ -144,7 +146,7 @@ li > a {
       width: 50%;
       font-size: 1.2rem;
      
-      letter-spacing:;
+      letter-spacing:
       
 }
 
@@ -186,7 +188,7 @@ li > a {
       background-color: rgb(253, 232, 244);
       width: 862px;
       height: 233px;
-      Height 184px: ;
+      Height: 184px ;
       border-radius: 50px;
       margin: 10px 15%;
 
@@ -321,4 +323,41 @@ li > a {
 
 hr {
       margin: 30px 0 40px 0;
+}
+
+
+
+/* new css for feture section  */ 
+
+.feture-detail{
+     
+      height: 300px;
+      border-radius: 0 0 15px 15px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 20px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.left-side , .right-side{
+      display: flex;
+      width: 45%;
+      background-color: #F6FAFD;
+      border-radius: 20px;
+      padding: 20px;
+      justify-content: space-between;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+.text{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+}
+.feture-image{
+
+       border-radius: 50%;
+       width: 9rem;
+       padding: 1rem;
 }
