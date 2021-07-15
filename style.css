@@ -6,13 +6,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 /* color variable **/
 
-root {
-      --primery: rgba(33, 35, 83, 1);
-      --bcolor: #9C69E2;
-      --secondary: #4B5D68;
-      --green: #68C9BA;
-      --red: #F063B8;
-}
 
 
 
@@ -20,7 +13,6 @@ body {
       background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
       background-repeat: no-repeat;
       font-size: 20px;
-      font-weight: 500;
 }
 
 .container {
@@ -69,12 +61,8 @@ li > a {
 
 }
 
-.Demo {
-     
 
 
-
-}
 
 /* ==== into css === rule===  section 1*/
 
@@ -144,81 +132,18 @@ li > a {
       color: #fff;
       width: 50%;
       font-size: 1.2rem;
-     
-      letter-spacing:
       
 }
 
-
-#intoheading {
-      font-family: 'Roboto', sans-serif;
-      font-weight: bold;
-      font-size: 60px;
-      line-height: 110%;
-      color: var(--primery);
-
-}
-
-#inropragraf {
-
-      width: 300px;
-
-      margin-top: 10px;
-      color: var(--primery);
-      font-family: 'lito', sans-serif;
-      line-height: 1.5;
-}
-
-.learnmore {
-      margin-top: 10px;
-      padding: 10px;
-      border-radius: 20px;
-      border: none;
-      background-color: rgba(156, 105, 226, 1);
-      color: #fff;
-
-
-}
-
-/***section 2 css code ***/
-
-.storagebank {
-      position: relative;
-      background-color: rgb(253, 232, 244);
-      width: 862px;
-      height: 233px;
-      Height: 184px ;
-      border-radius: 50px;
-      margin: 10px 15%;
-
-      padding: 16px;
-}
-
-.storageimage {
-      float: left;
-      width: 28%;
-      margin-right: 158px;
-
-}
-
-.strage {
-
-      width: 90%;
-      margin-top: 30px;
-      color: var(--primery);
-      font-family: 'Roboto', sans-serif;
-      line-height: 1.5;
-      font-size: 12px;
-}
 /* New CSS for Feture setion */
 
 .feture {
        display: flex;
        flex-direction: column;
        align-items: center;
-       margin-top: 3rem;
-       margin-bottom: 3rem; 
-       row-gap: 1.5rem;
+       margin-top: 1rem;
+       margin-bottom: 1rem; 
+       row-gap: 1rem;
 
 
 }
@@ -232,99 +157,8 @@ li > a {
 .feturepara{
    font-size: 1.5rem;
    width: 40%;
-   letter-spacing: .1rem;
    color: rgb(63, 63, 63);
 }
-
-/**** detail section css ****/
-.detailf {
-
-      width: 442px;
-      height: 358px;
-      background-color: rgb(199, 238, 230);
-      border-radius: 50px;
-      text-align: left;
-      position: relative;
-}
-
-.fitem {
-      margin-top: 40px;
-}
-
-.fimage {
-
-      width: 35%;
-      float: left;
-      margin-top: 94px;
-
-}
-
-.data {
-      margin-top: 30px;
-}
-
-.deati {
-      margin: 0 15%;
-      position: relative;
-      font-family: 'lito', sans-serif;
-      display: flex;
-      flex-basis: 50%;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      font-size: 13px;
-      line-height: 1.5;
-}
-
-.searpara {
-      width: 200px;
-      position: absolute;
-      left: 130px;
-      bottom: 20px;
-
-}
-
-.para {
-      width: 150px;
-}
-
-.back {
-      background-color: rgb(240, 250, 248);
-      width: 350px;
-      height: 200px;
-      margin-bottom: 20px;
-      position: relative;
-      border-top-left-radius: 80px;
-      border-top-right-radius: 35px;
-      border-bottom-right-radius: 35px;
-      border-bottom-left-radius: 27px;
-      flex-basis: 50%;
-}
-
-.dataimg {
-      position: absolute;
-      right: 260px;
-      width: 150px;
-      height: 200px;
-}
-
-#house {
-      background-color: rgb(245, 240, 252);
-}
-
-#print {
-      background-color: rgb(247, 250, 254);
-}
-
-#security {
-      background-color: rgb(255, 255, 255);
-
-}
-
-hr {
-      margin: 30px 0 40px 0;
-}
-
-
 
 /* new css for feture section  */ 
 
@@ -337,7 +171,7 @@ hr {
       align-items: center;
       justify-content: space-between;
       font-size: 16px;
-     font-family: Georgia, 'Times New Roman', Times, serif;
+      font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .left-side , .right-side{
       display: flex;
@@ -347,6 +181,7 @@ hr {
       padding: 20px;
       justify-content: space-between;
       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+   
 
 }
 .text{
@@ -359,4 +194,5 @@ hr {
        border-radius: 50%;
        width: 9rem;
        padding: 1rem;
+       height: 9rem;
 }
