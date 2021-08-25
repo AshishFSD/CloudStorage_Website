@@ -5,7 +5,7 @@ To creat website layout we used some common HTML features like hiding, button , 
 margin, padding , color etc
 
 Note : You may preview website using below link </br>
-  *https://ashishfsd.github.io/cloudStorage/ 
+  *https://ashishfsd.github.io/CloudStorage_Website/
   
 
 
