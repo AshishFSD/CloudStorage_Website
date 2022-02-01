@@ -1,6 +1,8 @@
 * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
@@ -15,20 +17,31 @@ body {
       font-size: 20px;
 }
 
+header{
+      box-shadow: -2px 2px 5px 10px #d8cfd4;
+      position: fixed;
+      top:0;
+      width: 100%;
+      z-index: 1;
+      background-color: white;
+}
+
 .container {
 
-      margin: 0 15%;
+      margin: 10% 15%;
 
 
 }
 
-.top {
+.navbar {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       border-bottom: 2px solid #F063B8;;
       align-items: center;
-      height: 60px
+      height: 60px;
+      margin: 0 7.5%;
+     
 }
 
 .logo, .nav {
@@ -87,8 +100,13 @@ body {
       display: flex;
       flex-direction: column;
       row-gap: 1rem;
+      text-align: justify;
 }
 
+.lhi> h1{
+      text-align: left;
+      width: 100%;
+}
 
 .rsm{
       width: 60%;
